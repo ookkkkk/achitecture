@@ -1,0 +1,25 @@
+{
+    "name": "mstx/e_commerce",
+    "description": "online shop",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mstx",
+            "email": "mstx777@gmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4":{
+        "App\\": "database",
+        "Chks\\": "ressources/contents/define_zone/class"
+      }
+    },
+    "autoload-dev":{
+      "psr-4":{
+        "Model\\": "output"
+      }
+    },
+    "require": {
+        "intervention/image": "^2.5"
+    }
+}
